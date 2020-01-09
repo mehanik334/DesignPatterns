@@ -1,0 +1,5 @@
+package ua.epam.javacore.interpreter;
+
+public interface Expression {
+    public boolean interpret(String context);
+}
